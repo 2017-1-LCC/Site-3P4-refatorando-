@@ -47,6 +47,14 @@
 .citacao {
    padding: 10px;
    font-size: 3.3vh;
+   text-align: justify;
+   font-family: sans-serif;
 
    border: 1px solid #333;
+}
+
+@media screen and (min-width: 411px) {
+   .perguntas {
+      margin-left: 6.5%;
+   }
 }
