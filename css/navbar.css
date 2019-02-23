@@ -20,7 +20,7 @@
    position: absolute;
    cursor: pointer;
 
-   margin-top: 4px;
+   margin-top: 2.3%;
 }
 
 .barraNav_itens {
@@ -57,11 +57,23 @@
    float: left;
 }
 
-.tituloSite {
+.tituloSite a {
    float: left;
-   margin-top: 25px;
-   margin-left: 25px;
+   margin-top: 7%;
+   margin-left: 7%;
+   color: white;
+   text-decoration: none;
 
    font-size: 3.3vh;
 }
+   .tituloSite a:visited {
+      color: white;
+   }
 
+
+@media screen and (min-width: 411px) {
+   .barraNav_link-botao, .barraNav_link a {
+      margin-top: 2.5%;
+      font-size: 1.2em;
+   }
+}
