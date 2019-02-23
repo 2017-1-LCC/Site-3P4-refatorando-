@@ -1,0 +1,67 @@
+.barraNav {
+   background-color: #333;
+   padding: 10px;    
+   display: flex;
+   color: white;  
+
+   position: sticky;
+   top: 0;
+
+   flex-direction: column;
+}
+
+.barraNav_link {
+   padding: 20px;
+}
+
+.barraNav_link-botao {
+   align-self: flex-end;
+   display: initial;
+   position: absolute;
+   cursor: pointer;
+
+   margin-top: 4px;
+}
+
+.barraNav_itens {
+   display: none;
+   flex-direction: column;
+   text-align: center;
+}
+   .barraNav_itens a {
+      text-decoration: none;
+      color: white;    
+   }
+
+   .barraNav_itens:visited { color: white; }
+
+   .barraNav_itens a:hover {
+      background-color: gray;
+      text-decoration: none;
+      color: white;
+      border-radius: 10px;
+      padding: 15px;
+   }
+
+.barraNav_show {
+   display: flex;
+}
+
+.barraNav_hide {
+   display: none;
+}
+
+.logoIF {
+   width: 23%;
+   content: url('../imgs/descubraoif_logo.png');
+   float: left;
+}
+
+.tituloSite {
+   float: left;
+   margin-top: 25px;
+   margin-left: 25px;
+
+   font-size: 3.3vh;
+}
+
