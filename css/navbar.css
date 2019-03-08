@@ -20,7 +20,7 @@
    position: absolute;
    cursor: pointer;
 
-   margin-top: 1.1%;
+   margin-top: 0.2em;
 }
 
 .barraNav_itens {
@@ -72,8 +72,27 @@
 
 
 @media screen and (min-width: 411px) {
-   .barraNav_link-botao, .barraNav_link a {
-      margin-top: 1.7%;
-      font-size: 1.2em;
+   .barraNav_link-botao {
+      margin-top: 0.4em;
+   }
+
+   .barraNav_itens a {
+      font-size: 1.3em;
+   }
+}
+
+@media screen and (min-width: 550px) {
+   .logoIF {
+      width: 25%;
+   }
+
+   .tituloSite a {
+      font-size: 4vh;
+      margin-top: 8%;
+   }
+
+   .barraNav_link-botao {
+      margin-top: 1.1em;
+      font-size: 3.5vh;
    }
 }
